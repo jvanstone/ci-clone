@@ -438,6 +438,7 @@ article{margin:0;padding:.5rem 1rem}
 .guide-card-row{margin:0 auto;width:100%}
 .guide-card{margin:0;padding:.5rem;background-color:var(--global--color-purple);text-align:center}
 .card-text>.guide-card p{margin:.5rem !important}
+.card{width:100% !important}
 .entry-footer,.footer{display:none}
 .page-title{font-size:var(--global--font-size-page-title)}
 h1.page-title,h2.page-title{font-weight:var(--heading--font-weight-page-title)}
