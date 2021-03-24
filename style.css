@@ -65,9 +65,9 @@ p, p > a, ul, table { font-size: 14.4px; }
 /** Root Media Query Variables */
 :root { --responsive--spacing-horizontal: calc(2 * var(--global--spacing-horizontal) * 0.6); --responsive--aligndefault-width: calc(100vw - var(--responsive--spacing-horizontal)); --responsive--alignwide-width: calc(100vw - var(--responsive--spacing-horizontal)); --responsive--alignfull-width: 100%; --responsive--alignright-margin: var(--global--spacing-horizontal); --responsive--alignleft-margin: var(--global--spacing-horizontal); }
 
-@media only screen and (min-width: 482px) { :root { --responsive--aligndefault-width: min(calc(100vw - 4 * var(--global--spacing-horizontal)), 610px); --responsive--alignwide-width: calc(100vw - 4 * var(--global--spacing-horizontal)); --responsive--alignright-margin: calc(0.5 * (100vw - var(--responsive--aligndefault-width))); --responsive--alignleft-margin: calc(0.5 * (100vw - var(--responsive--aligndefault-width))); } }
+@media only screen and (min-width: 482px) { :root { --responsive--aligndefault-width: min(calc(100vw - 4 * var(--global--spacing-horizontal)), 800px); --responsive--alignwide-width: calc(100vw - 4 * var(--global--spacing-horizontal)); --responsive--alignright-margin: calc(0.5 * (100vw - var(--responsive--aligndefault-width))); --responsive--alignleft-margin: calc(0.5 * (100vw - var(--responsive--aligndefault-width))); } }
 
-@media only screen and (min-width: 822px) { :root { --responsive--aligndefault-width: min(calc(100vw - 8 * var(--global--spacing-horizontal)), 610px); --responsive--alignwide-width: min(calc(100vw - 8 * var(--global--spacing-horizontal)), 1240px); } }
+@media only screen and (min-width: 822px) { :root { --responsive--aligndefault-width: min(calc(100vw - 8 * var(--global--spacing-horizontal)), 800px); --responsive--alignwide-width: min(calc(100vw - 8 * var(--global--spacing-horizontal)), 1240px); } }
 
 /** Extends */
 .default-max-width, .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), *[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), .entry-content .wp-audio-shortcode, .post-thumbnail { max-width: var(--responsive--aligndefault-width); margin-left: auto; margin-right: auto; }
