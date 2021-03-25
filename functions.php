@@ -191,7 +191,7 @@ if ( ! function_exists( 'canada_info_setup' ) ) {
 		// Add support for editor styles.
 		add_theme_support( 'editor-styles' );
 		$background_color       = get_theme_mod( 'background_color', '#FFFFFF' );
-		$editor_stylesheet_path = './assets/css/style-editor.css';
+		$editor_stylesheet_path = './assets/css/editor-style.css';
 
 		// Note, the is_IE global variable is defined by WordPress and is used
 		// to detect if the current browser is internet explorer.
